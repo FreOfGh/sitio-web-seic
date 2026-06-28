@@ -8,15 +8,17 @@ export default function CTFPlatforma() {
 
                 {/* Imagen */}
                 <div className="flex justify-center">
-
-                    <Image
-                        src="/images/ctf-platform.png"
-                        alt="CTF Platform"
-                        width={500}
-                        height={500}
-                        className="object-contain"
-                    />
-
+                    <div className="relative w-full max-w-[500px]">
+                        <div className="relative aspect-square w-full">
+                            <Image
+                                src="/images/ctf-platform.png"
+                                alt="CTF Platform"
+                                fill
+                                sizes="(max-width: 768px) 100vw, 50vw"
+                                className="object-contain"
+                            />
+                        </div>
+                    </div>
                 </div>
 
                 {/* Texto */}

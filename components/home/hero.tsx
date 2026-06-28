@@ -56,13 +56,12 @@ export default function Hero() {
         {/* Imagen */}
         <div className="flex justify-center">
 
-          <div className="relative flex h-[500px] w-[500px] items-center justify-center rounded-full border border-green-500/20 bg-green-500/5">
+          <div className="relative flex h-[320px] w-[320px] items-center justify-center rounded-full border border-green-500/20 bg-green-500/5 sm:h-[360px] sm:w-[360px] md:h-[420px] md:w-[420px] xl:h-[500px] xl:w-[500px]">
 
-            {/* Aquí irá una ilustración */}
             <img
               src="/hero-cyber.svg"
               alt="Cybersecurity"
-              className="w-[420px]"
+              className="max-w-full h-auto w-full sm:w-[360px] md:w-[420px]"
             />
 
           </div>
