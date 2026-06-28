@@ -45,7 +45,7 @@ export default function CTFPlatforma() {
                         entorno seguro y colaborativo.
                     </p>
                     <Link
-                        href={process.env.NEXT_PUBLIC_CTF_URL}
+                        href={"#"}
                         target="_blank"
                         rel="noopener noreferrer"
                         className="mt-10 inline-flex rounded-lg bg-green-600 px-8 py-4 font-semibold text-white transition hover:bg-green-500"
